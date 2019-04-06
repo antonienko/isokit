@@ -1,0 +1,12 @@
+github.com/gopherjs/gopherjs v0.0.0-20190328170749-bb2674552d8f h1:4Gslotqbs16iAg+1KR/XdabIfq8TlAWHdwS5QJFksLc=
+github.com/gopherjs/gopherjs v0.0.0-20190328170749-bb2674552d8f/go.mod h1:wJfORRmW1u3UXTncJ5qlYoELFm8eSnnEO6hX4iZ3EWY=
+github.com/tdewolff/minify v2.3.6+incompatible h1:2hw5/9ZvxhWLvBUnHE06gElGYz+Jv9R4Eys0XUzItYo=
+github.com/tdewolff/minify v2.3.6+incompatible/go.mod h1:9Ov578KJUmAWpS6NeZwRZyT56Uf6o3Mcz9CEsg8USYs=
+github.com/tdewolff/parse v2.3.4+incompatible h1:x05/cnGwIMf4ceLuDMBOdQ1qGniMoxpP46ghf0Qzh38=
+github.com/tdewolff/parse v2.3.4+incompatible/go.mod h1:8oBwCsVmUkgHO8M5iCzSIDtpzXOT0WXX9cWhz+bIzJQ=
+honnef.co/go/js/dom v0.0.0-20190403051653-d6d651dc5aea h1:l6lyoxaYVdN7ef9QLiRuDMKFTX8a4QtrRg7rf8nmlb0=
+honnef.co/go/js/dom v0.0.0-20190403051653-d6d651dc5aea/go.mod h1:sUMDUKNB2ZcVjt92UnLy3cdGs+wDAcrPdV3JP6sVgA4=
+honnef.co/go/js/util v0.0.0-20150216223935-96b8dd9d1621 h1:QBApQyt1KyR3SvDWU8sHcIXeWTSCUamO7xQopvwuLWI=
+honnef.co/go/js/util v0.0.0-20150216223935-96b8dd9d1621/go.mod h1:WrAIh8rWfzvMdLVgQ7vpu7aYbDAZ3rHLxydzv2VkL/w=
+honnef.co/go/js/xhr v0.0.0-20150307031022-00e3346113ae h1:2dIKMawnBWvHzZrS8STyu/KdhYIOpnKQpp1WZm+K7TE=
+honnef.co/go/js/xhr v0.0.0-20150307031022-00e3346113ae/go.mod h1:QwoYXdHZpuR080H32s5jqyk7zh/k/U9bDFg2g8OMmOM=
