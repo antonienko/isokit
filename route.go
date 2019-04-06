@@ -51,8 +51,8 @@ func NewRoute(path string, handler HandlerFunc) *Route {
 	for _, routePart := range routeParts {
 		if strings.HasPrefix(routePart, `{`) && strings.HasSuffix(routePart, `}`) {
 			routePattern += RouteWithParamsPattern
-			routePart = strings.TrimPrefix(path, `{`)
-			routePart = strings.TrimSuffix(path, `}`)
+			routePart = strings.TrimPrefix(routePart, `{`)
+			routePart = strings.TrimSuffix(routePart, `}`)
 			r.varNames = append(r.varNames, routePart)
 		} else {
 			routePattern += RouteOnlyPrefixPattern + routePart

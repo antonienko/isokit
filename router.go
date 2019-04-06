@@ -75,7 +75,7 @@ func (r *Router) linkHandler(event dom.Event) {
 	for _, route := range r.routes {
 
 		matches := route.regex.FindStringSubmatch(path)
-		matchesExist := len(matches) > 0 && matches != nil
+		matchesExist := len(matches) > 0
 		isLowestMatchCount := (lowestMatchCountSet == false) || (len(matches) < lowestMatchCount)
 
 		if matchesExist && isLowestMatchCount {
@@ -92,7 +92,7 @@ func (r *Router) linkHandler(event dom.Event) {
 		routeVars := make(map[string]string)
 
 		for i, part := range parts {
-			routeVars[matchedRoute.varNames[i]+`}`] = part
+			routeVars[matchedRoute.varNames[i]] = part
 		}
 
 		var ctx context.Context
